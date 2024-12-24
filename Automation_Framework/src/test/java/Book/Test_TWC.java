@@ -21,6 +21,6 @@ public class Test_TWC extends BaseClass {
 		hp.getBookslink().click();
 		Assert.assertEquals(driver.getTitle(),"Demo Web Shop. Books","Books Is not matched");
 		test.log(Status.PASS, "Books page is display");
-		Report.log("Pass the test",true);
+		
 	}
 }
